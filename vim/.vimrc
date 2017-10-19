@@ -12,6 +12,7 @@ set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 "set nu                  " show line number
 set tabstop=4           " set tab equal 4 blank
+set term=dtterm
 
 " Only do this part when compiled with support for autocommands
 if has("autocmd")
